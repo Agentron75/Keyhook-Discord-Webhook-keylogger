@@ -1,0 +1,5 @@
+Terms of Use
+
+By using this code, you agree that the author is not responsible for any misuse, damage, or consequences resulting from its use. The user is solely responsible for ensuring compliance with applicable laws and ethical guidelines. Use at your own risk.
+
+(I have made this for educational purposes, so you can learn coding with discord and python)!
